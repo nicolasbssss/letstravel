@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>let's Travel</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Cargando...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-map-marker-alt text-primary me-2"></small>
+            <small>Cra. 87a #6a-37 a 6a-13, Bogotá</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center py-3">
+            <small class="far fa-clock text-primary me-2"></small>
+            <small>Domingo a Domingo</small>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-phone-alt text-primary me-2"></small>
+            <small>+57 3203382166</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-0" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand p-0">
+        <img class="img-fluid me-3" src="img/Isotipo.jpg" alt="img" />
+        <h1 class="m-0 text-primary">Let's Travel</h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="index.html" class="nav-item nav-link active">Inicio</a>
+          <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
+          <a href="service.html" class="nav-item nav-link">Servicios</a>
+          <div class="nav-item dropdown">
+
+           
+            
+          
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Base_datos</a
+            >
+            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+              <a href="" class="dropdown-item">Inicio </a>
+              <a href="Viaje/index.php" class="dropdown-item"> viaje</a>
+              <a href="Detalle/index.php" class="dropdown-item"> detalle</a>
+              <a href="Panel control/index.php" class="dropdown-item"> panel control</a>
+              <a href="Transporte/index.php" class="dropdown-item">trasnporte</a>
+              <a href="Vehiculo/index.php" class="dropdown-item">vehiculo </a>
+              <a href="Metodo_pago/index.php" class="dropdown-item"> metodo de pago </a>
+              <a href="Conductor/" class="dropdown-item"> conductor</a>
+              <a href="Usuario/" class="dropdown-item"> usurio</a>
+              <a href="Administrador/" class="dropdown-item">administrdor </a>
+            </div>
+
+
+
+
+          
+
+
+
+          </div>
+
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Viajes</a
+            >
+            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+              <a href="" class="dropdown-item">Publicar viaje</a>
+              <a href="" class="dropdown-item">Reservar viaje</a>
+            </div>
+          </div>
+          <a href="contact.html" class="nav-item nav-link">Contactanos</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark p-0 mb-5">
+      <div class="row g-0 flex-column-reverse flex-lg-row">
+        <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
+          <div 
+            class="header-bg h-100 d-flex flex-column justify-content-center p-5"
+          >
+            <h1 class="display-4 text-light mb-5">
+              Tu mejor opcion a la hora de viajar
+            </h1>
+            <div class="d-flex align-items-center pt-4 animated slideInDown">
+              <a href="testimonial.html" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5"
+                >Empieza ahora</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.4s">
+          <div class="owl-carousel header-carousel">
+            <div class="owl-carousel-item">
+              <img class="img-fluid" src="img/img1.jpg" alt="" />
+            </div>
+            <div class="owl-carousel-item">
+              <img class="img-fluid" src="img/img2.jpeg" alt="" />
+            </div>
+            <div class="owl-carousel-item">
+              <img class="img-fluid" src="img/img3.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Video Modal Start -->
+    <div
+      class="modal modal-video fade"
+      id="videoModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- 16:9 aspect ratio -->
+            <div class="ratio ratio-16x9">
+              <iframe
+                class="embed-responsive-item"
+                src=""
+                id="video"
+                allowfullscreen
+                allowscriptaccess="always"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Modal End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <p><span class="text-primary me-2">#</span>Bienvenido a let's Travel</p>
+            <h1 class="display-5 mb-4">
+              Porque deberias escoger
+              <span class="text-primary">Let's Travel</span> <!--Park!-->
+            </h1>
+            <p class="mb-4">
+              Si creemos que algo de lo que Usted solicita, no lo podemos cumplir por la razón que sea, se lo diremos y buscaremos una alternativa que le sea de utilidad para llegar a su destino.
+            </p>
+            <h5 class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Conductores calificados
+            </h5>
+            <h5 class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Comodidad a la hora de viajar
+            </h5>
+            <h5 class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Servicio las 24 horas
+            </h5>
+            <h5 class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>
+              
+            </h5>
+            <a class="btn btn-primary py-3 px-5 mt-3" href="membership.html">Empezamos?</a>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="img-border">
+              <img class="img-fluid" src="img/Fondo.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Facts Start -->
+    <div
+      class="container-xxl bg-primary facts my-5 py-5 wow fadeInUp"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.1s"
+          >
+            <i class="fa fa-users fa-3x text-primary mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">10</h1>
+            <p class="text-white mb-0">Total usuarios</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.3s"
+          >
+            <i class="fa fa-users fa-3x text-primary mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">12</h1>
+            <p class="text-white mb-0">Total conductores</p>
+          </div>
+          <!--<div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.5s"
+          >
+            <i class="fa fa-certificate fa-3x text-primary mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
+            <p class="text-white mb-0">Total Membership</p>
+          </div>-->
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.7s"
+          >
+            <i class="bi bi-hand-thumbs-up-fill fa-3x text-primary mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">123</h1>
+            <p class="text-white mb-0">Clientes satisfechos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Facts End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-6">
+            <p><span class="text-primary me-2">#</span>Servicios</p>
+            <h1 class="display-5 mb-0">
+              Servicios que ofrece
+              <span class="text-primary">Let's travel</span>
+            </h1>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="bg-primary h-100 d-flex align-items-center py-4 px-4 px-sm-5"
+            >
+              <i class="fa fa-3x fa-mobile-alt text-white"></i>
+              <div class="ms-4">
+                <p class="text-white mb-0">Llamanos para mas informacion</p>
+                <h2 class="text-white mb-0">+57 3203385166</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-5 gx-4">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/casa.png" alt="Icon" width="70" height="20" />
+            <h5 class="mb-3">Recogemos en casa</h5>
+            <span
+              >Este servicio cuneta con recogerte en la puerta de tu casa.</span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/comida.png" alt="Icon" width="70" height="20"/>
+            <h5 class="mb-3">Alimentacion</h5>
+            <span
+              >Podras seleccionar algun restaurante en la ruta para comer.</span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/parque.png" alt="Icon" width="70" height="20" />
+            <h5 class="mb-3">Paradas Turisticas</h5>
+            <span
+              >Con este servico podras parar en algun lugar Turistico, mientras que lo hallas hablado con el Conductor.</span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/maletas.png" alt="Icon" width="70" height="20"/>
+            <h5 class="mb-3">Equipaje</h5>
+            <span
+              >Con este servicio tendras un limite de maletas.</span
+            >
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Animal Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="row g-5 mb-5 align-items-end wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-6">
+            <p><span class="text-primary me-2">#</span>Conductores</p>
+            <h1 class="display-5 mb-0">
+             Nuestros conductores y vehiculos
+            </h1>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <a class="btn btn-primary py-3 px-5" href=""
+              >Explora nuestros vehiculos, conductores</a
+            >
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/carro1"
+                  data-lightbox="vehiculos"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/carro1" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Vehiculo</p>
+                      <h5 class="text-white mb-0">Volkswagen</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/prs1.jpg"
+                  data-lightbox="Conductor"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/prs1.jpg" alt="" height="500" width="400px" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Conductor</p>
+                      <h5 class="text-white mb-0">Samuel David Rodriguez Ruiz<p>26 años</p><p>Bogota,Colombia</p> <p>O-</p></h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/prs2.jpg"
+                  data-lightbox="Conductor"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/prs2.jpg" alt="" width="335" height="500"/>
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Conductor</p>
+                      <h5 class="text-white mb-0">Sara Melo Diaz <p>24 años</p> <p>Medellin, Colombia</p> <p>A+</p></h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/cr2.jpg"
+                  data-lightbox="Vehiculo"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/cr2.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Vehiculo</p>
+                      <h5 class="text-white mb-0">Chevrolet</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/cr3"
+                  data-lightbox="Vehiculo"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/cr3" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Vehiculo</p>
+                      <h5 class="text-white mb-0">Toyota</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/prs3"
+                  data-lightbox="Conductor"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/prs3" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Conductor</p>
+                      <h5 class="text-white mb-0">Camilo Fonseca Garzon <p>32 años</p> <p>Bogota,Colombia</p> <p>O+</p></h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Animal End -->
+
+    <!-- Visiting Hours Start -->
+    
+
+    <!-- Membership Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="row g-5 mb-5 align-items-end wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-6">
+            <p><span class="text-primary me-2">#</span>Reservar pasaje</p>
+            <h1 class="display-5 mb-0">
+              Estos son los viajes que estan programados hasta el momento.
+              
+              <span class="text-primary"></span>
+            </h1>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <a class="btn btn-primary py-3 px-5" href="contact.html">Esta tu destino?</a>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/medellin.jpg" alt="" width="100" height="90"/>
+              <h1 class="display-1">01</h1>
+              <h4 class="text-white mb-3">Medellin</h4>
+              <h3 class="text-primary mb-4">$40.000</h3>
+              <p><i class="fa fa-check text-primary me-3"></i>Lunes 3:00 AM</p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>3 puestos disponibles
+              </p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Paradas Turisticas
+              </p>
+              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/bogota.jpg" alt="" />
+              <h1 class="display-1">02</h1>
+              <h4 class="text-white mb-3">Bogotá</h4>
+              <h3 class="text-primary mb-4">$60.000</h3>
+              <p><i class="fa fa-check text-primary me-3"></i>Miercoles 5:00 AM</p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>1 puesto disponible
+              </p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Paradas Turisticas
+              </p>
+              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/Melgar.jpg" alt="" />
+              <h1 class="display-1">03</h1>
+              <h4 class="text-white mb-3">Melgar</h4>
+              <h3 class="text-primary mb-4">$20.000</h3>
+              <p><i class="fa fa-check text-primary me-3"></i>Jueves 5:00 AM</p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>1 puesto disponible
+              </p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Paradas Turisticas
+              </p>
+              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Membership End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <h1
+          class="display-5 text-center mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+        Nuestros clientes dicen!
+        </h1>
+        <div
+          class="owl-carousel testimonial-carousel wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-1.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Me parece una buena pagina ya que me ha facilitado algunos Viajes.
+                
+              </p>
+              <h5 class="mb-1">Laura</h5>
+              <span class="fst-italic">Usuario</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-2.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+               Muy buena la pagina, no hubiera sido posible llegar ami destino 
+               si no fuera sido por esta pagina ya que en la terminal hubiera llegado al otro dia. 
+              </p>
+              <h5 class="mb-1">Dylan</h5>
+              <span class="fst-italic">Usuario</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-3.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                19 de 10, sus conductores son muy buenos a la hora de conducir,
+                estan atentos al camino, muy amables.
+              </p>
+              <h5 class="mb-1">Sebastian</h5>
+              <span class="fst-italic">Usuario</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Direccion</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Cra. 87a #6a-37 a 6a-13, Bogotá
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+57 3203382166
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>ojholguin@misena.edu.co
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Popular Links</h5>
+            <a class="btn btn-link" href="about.html">Sobre Nosotros</a>
+            <a class="btn btn-link" href="contact.html">Contactanos</a>
+            <a class="btn btn-link" href="service.html">Servicios</a>
+            <a class="btn btn-link" href="membership.html">Reservar pasaje</a>
+            <a class="btn btn-link" href="testimonial.html">Testimonios</a>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
